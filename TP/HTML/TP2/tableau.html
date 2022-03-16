@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .premiertableau {
+            width: 600px;
+            border: 1px solid #000;
+        }
+        .premiertableau td {
+            padding: 10px;
+            margin:3px;
+            border: 1px solid #000;
+
+        }
+        .premiertableau th {
+            padding: 10px;
+            margin:3px;
+            border: 1px solid #000;
+            background-color: #2B2B2B;
+            color:#ffffff;
+
+        }
+
+        .premiertableau tfoot td {
+            background-color: pink;
+        }
+        </style>
+</head>
+<body>
+
+    <table class="premiertableau">
+        <thead>
+            <tr>
+                <th>image</th>
+                <th><a href="#ancre1">Ancre 1</a></th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="4">
+                    <h2 id="ancre1">Lorem ipsum dolor sit.</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, a enim amet eaque libero vitae corporis expedita quo quod nobis facere veniam aspernatur quidem odio quibusdam ipsam adipisci iste. Hic ratione explicabo sequi sit quia repudiandae, inventore quidem officiis officia exercitationem blanditiis aut quisquam earum tempora recusandae, eius veniam mollitia sunt. Ipsum veniam laborum nam, recusandae omnis magni fuga porro voluptas dolore obcaecati, velit fugiat culpa? Corporis nam veniam voluptatem! Minima tenetur error corporis illum aspernatur architecto repudiandae? Nesciunt officiis fuga labore, eum nostrum quidem qui iusto asperiores in ratione non beatae obcaecati debitis velit eveniet voluptatibus hic recusandae aspernatur aperiam alias illo exercitationem. Velit aliquam sint accusantium, sapiente qui quasi, enim ea veniam ut repudiandae quia tempore doloremque fugit incidunt sequi quam repellat molestiae id nulla delectus hic saepe excepturi harum. Nisi, blanditiis quasi assumenda natus veniam architecto, neque quibusdam dolorum possimus, incidunt eligendi. Corporis possimus sed a soluta. Doloremque pariatur nam porro! Incidunt, doloribus fuga aliquid, recusandae iure consequuntur quos odit officiis, laboriosam voluptates sequi voluptatibus? Dolore illum, molestias non error dolorem nemo. Impedit, cum vitae! Harum culpa a voluptas repudiandae incidunt nihil quod sint facere recusandae quaerat, distinctio adipisci odio, numquam fugit fugiat suscipit consectetur delectus. Delectus praesentium qui voluptatum sit unde provident? Rerum alias animi cum possimus unde porro! Quas magni numquam quia optio nemo, asperiores officiis rerum animi possimus modi, reiciendis nisi fugit doloribus temporibus sit perferendis praesentium in similique saepe suscipit deserunt eos sed corrupti! Molestiae dolorem distinctio ipsum ex ratione tenetur praesentium quis repellat ducimus dolor cumque neque eligendi, mollitia cum harum nam impedit, quasi id. Cumque officiis, porro et fuga voluptate rem consequuntur explicabo quas reprehenderit, unde alias reiciendis aperiam nulla earum in nesciunt voluptatem harum. Ipsam porro ut, minus aut at quis consectetur animi ex architecto delectus ipsa, laudantium beatae consequuntur eligendi ullam odit asperiores doloremque in amet a sed veritatis cum eius. Excepturi cumque labore exercitationem? Perferendis laborum numquam ullam alias recusandae eligendi quam velit ab at amet commodi exercitationem cum atque eum distinctio saepe laudantium dignissimos, illum debitis iure nemo, molestiae nam asperiores. Laboriosam dolor, quo accusamus rerum temporibus alias eligendi impedit non quisquam doloremque minus eos expedita. Obcaecati repellendus eveniet, labore nisi non quidem qui dicta soluta, magni error sint blanditiis dolor consequuntur. Dolor architecto pariatur corrupti molestiae, assumenda debitis fuga adipisci repellat nisi doloremque esse delectus unde, tenetur ducimus velit sequi possimus totam impedit corporis voluptatem suscipit nostrum nihil ipsam! Culpa consequuntur inventore saepe deleniti cum unde? Voluptatem qui alias voluptas aut illo maxime culpa quis porro quia, in, a eos. Ratione optio a aut quia esse odio odit assumenda, dignissimos quibusdam hic sapiente voluptatem consequuntur harum aliquam facere ex repudiandae in provident quos officiis? Doloremque, consequatur eaque fugit id dolorem dolore molestiae totam optio labore reprehenderit cum debitis deleniti ipsa impedit. Eius accusantium saepe aut quidem fugiat explicabo laborum autem a repellendus temporibus officia cupiditate, cum incidunt debitis blanditiis. Nostrum aliquid, vel libero voluptates dicta excepturi, obcaecati rerum voluptatum blanditiis nihil hic sequi doloribus repellat quas!</p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- <table width="600" cellspacing="1" cellpadding="10" border="10" class="premiertableau"> -->
+        <table class="premiertableau">
+
+    <thead>
+        <tr>
+         <th>Nom</th>
+         <th>Prenom</th>
+        </tr>
+    </thead>
+            
+    <tbody>
+        <tr>
+            <td>1ère cellule</td>
+            <td>2ème cellule</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">1ère cellule</td>
+           
+        </tr>
+        <tr>
+            <td rowspan="3">1ère cellule</td>
+            <td>2ème cellule</td>
+        </tr>
+        <tr>
+           
+            <td>2ème cellule</td>
+        </tr>
+        <tr>
+           
+            <td>2ème cellule</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Nom</td>
+            <td>Prenom</td>
+           </tr>
+    </tfoot>
+
+
+    </table>
+    
+</body>
+</html>
